@@ -7,21 +7,19 @@ import Pricing from "./components/Pricing";
 import CourseSignUp from "./components/CourseSignUp";
 import Footer from "./components/Footer";
 
-const App = () => {
-  return (
-    <div className="app">
-      <Header />
-            <main>
-                <Hero />
-                <Stats />
-                <CourseBenefits />
-                <Carousel />
-                <Pricing />
-                <CourseSignUp />
-            </main>
+function App() {
+    return (
+        <>
+            <Header />
+            <Hero />
+            <Stats />
+            <CourseBenefits />
+            <Carousel />
+            <Pricing />
+            <CourseSignUp />
             <Footer />
-    </div>
-  );
-};
+        </>
+    );
+}
 
 export default App;
