@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #141024;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 0 15px;
+}
+
+.nav-link:hover {
+  color: #d52027;
+}
+
+.contact-number {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-number:hover {
+  color: #d52027;
+}

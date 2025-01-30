@@ -1,0 +1,43 @@
+.stats {
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #141024;
+  margin-bottom: 32px;
+}
+
+.intro-highlight {
+  font-weight: bold;
+  color: #d52027;
+}
+
+.stat {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  text-align: center;
+  max-width: 150px;
+}
+
+.stat-number {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 112px;
+  color: #d52027;
+}
+
+.stat-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #141024b2;
+}
